@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/chapters/mo3tazz1.rpy", line 198: expected statement.
+    for card in self.hand:
+             ^
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Mon Dec 27 15:14:07 2021

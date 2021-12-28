@@ -1,0 +1,192 @@
+Tue Dec 28 09:13:38 2021
+Windows-10-10.0.19041
+Ren'Py 7.4.10.2178
+ 
+
+Bootstrap to the start of init.init took 0.45s
+Early init took 0.03s
+Loader init took 0.11s
+Loading error handling took 0.14s
+Loading script took 1.61s
+Loading save slot metadata. took 0.32s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.50s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.36s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.01s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.10s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3000, 2000)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 520'
+Version: '4.5.0 - Build 24.20.100.6293'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1496, 842) drawable=(1496, 842)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1496, 1860) drawable=(1496, 1860)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/chapters/mo3tazz1.rpy", line 13, in script
+    $ carddeck = Deck()
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/chapters/mo3tazz1.rpy", line 13, in <module>
+    $ carddeck = Deck()
+  File "game/script.rpy", line 142, in __init__
+    self.build()
+  File "game/script.rpy", line 154, in build
+    self.cards.append(Card(suit, val, valuem, suitm))
+NameError: global name 'valuem' is not defined
+
+While running game code:
+  File "game/chapters/mo3tazz1.rpy", line 13, in script
+    $ carddeck = Deck()
+  File "game/chapters/mo3tazz1.rpy", line 13, in <module>
+    $ carddeck = Deck()
+  File "game/script.rpy", line 142, in __init__
+    self.build()
+  File "game/script.rpy", line 154, in build
+    self.cards.append(Card(suit, val, valuem, suitm))
+NameError: global name 'valuem' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 130.79s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.05s
+Loading script took 0.44s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Owner\\AppData\\Roaming/RenPy/backups\\Ha3oud':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3000, 2000)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 520'
+Version: '4.5.0 - Build 24.20.100.6293'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1496, 842) drawable=(1496, 842)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/chapters/mo3tazz1.rpy", line 13, in script
+    $ carddeck = Deck()
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/chapters/mo3tazz1.rpy", line 13, in <module>
+    $ carddeck = Deck()
+  File "game/script.rpy", line 140, in __init__
+    self.build()
+  File "game/script.rpy", line 152, in build
+    self.cards.append(Card(suit, val, valuem, suitm))
+NameError: global name 'valuem' is not defined
+
+While running game code:
+  File "game/chapters/mo3tazz1.rpy", line 13, in script
+    $ carddeck = Deck()
+  File "game/chapters/mo3tazz1.rpy", line 13, in <module>
+    $ carddeck = Deck()
+  File "game/script.rpy", line 140, in __init__
+    self.build()
+  File "game/script.rpy", line 152, in build
+    self.cards.append(Card(suit, val, valuem, suitm))
+NameError: global name 'valuem' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 164.59s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.05s
+Loading script took 0.34s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Owner\\AppData\\Roaming/RenPy/backups\\Ha3oud':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3000, 2000)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 520'
+Version: '4.5.0 - Build 24.20.100.6293'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1496, 842) drawable=(1496, 842)
+Maximum texture size: 4096x4096
